@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 140%;
+    color: rgb(0, 0, 0);
+	background-image:url(../images/body.jpg)
+}
+div#container{
+	max-width: 1024px;
+	margin:0 auto;
+}
+header, footer {
+background-color: #000;
+color: #fff;
+}
+
+h1 {
+	line-height: 100px;
+	padding-left: 70px;
+	background-position: 16px 20px;
+	background-image:url(../images/logo-html5.png);
+	background-repeat: no-repeat;
+}
+
+section {
+background-color:rgba(68, 68, 68, 0.212);
+}
+article {
+
+padding : 16px;
+margin : 9px;
+}
+h2 {
+margin : 0;
+}
+span {
+background-color :rgba(68, 68, 68, 0);
+}
+footer.flex-container {
+display: flex;
+}
+div.col3 {
+width : 33%;
+background-color: rgba(128, 128, 128, 0.246);
+margin: 9px;
+padding: 9px;
+}
+figure img{
+	margin: 0 auto;
+	display: block;
+	border-radius: 15px;
+	max-width: 100%;
+}
+figcaption{
+	text-align: center;
+	font-style: italic;
+}
+/*Navigation*/
+nav{background-color:#666}
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style:none;
+	display: flex;
+}
+
+nav ul li a{
+	display: block;
+	padding: 4px 10px;
+	text-decoration: none;
+	border-right: #fff 1px solid;
+	text-transform: uppercase;
+}
+nav ul li:last-child a{
+	border: none;
+}
+nav a:link, nav a:visited{
+	color: #fff;
+}
+
+nav a:hover, nav a:focus, nav a:active, nav a#current{
+	background-color:#999;
+}
